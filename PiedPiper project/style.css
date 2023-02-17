@@ -1,0 +1,269 @@
+body {
+    font-family: Roboto, sans-serif;
+    }
+
+.header {
+    width: 100%;
+    background: #007765;
+    height: 84px;
+    }
+
+a {
+    color:white;
+    text-decoration:none;
+   }  
+
+.line_block { 
+    float:left;
+    margin: 5px 5px 0px 0px; 
+    text-align:center;
+    font-size: 24px;
+    color: white;
+    }
+
+.header_logo { 
+    float: left;
+    width: 184px;
+    height: 45px;
+    text-align:center;
+    margin-left: 184px;
+    padding-top: 20px;
+    }
+
+.header_contents { 
+    float:right; 
+    margin-right: 184px;
+    text-align:center;
+    }
+
+.header_inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; 
+    }
+
+.container {
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    }
+  
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url("img/image-15.png");
+    background-size: cover;
+    background-position: center center;
+    height: 403px;
+    }
+  
+.jumb__message {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+    padding-top: 135px;
+    }
+
+.jumb_container {
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 55px;
+  }
+
+.problem{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    
+    text-align: left;
+    color: black;
+    }
+
+.the_problem {
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    }
+
+.problem_container {
+    box-sizing: border-box;
+    height: 719px;
+    }
+
+.hero {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url("img/image-14.png");
+    background-size: cover;
+    background-position: center center;
+    height: 483px;
+    }
+  
+.hero__message {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+    padding-top: 135px;
+     }
+
+.hero_container {
+    box-sizing: border-box;
+    max-width: 890px;
+    height: 483px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    }
+
+.PPC{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    text-align: left;
+    color: black;
+    }
+
+.the_PPC {
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    }
+
+.PPC_container {
+    box-sizing: border-box;
+    max-width: 1100px;
+    height: 603px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 55px;
+    }
+
+  .PPC_logo { 
+    float: left;
+    width: 115px;
+    height: 115px;
+    text-align:center;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-right: 40px;
+    }
+
+.team_container {
+    box-sizing: border-box;
+    max-width: 1100px;
+    height: 845px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+.the_team {
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+.member_container {
+    box-sizing: border-box;
+    width: 283px;
+    height: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+    }
+
+.member {
+    font-size: 24px;
+    font-style: bold;
+    text-align: center;
+    color: #007765;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+.position {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+                
+.member_photo { 
+    width: 168px;
+    height: 168px;
+    text-align:center;
+    }
+
+footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #333333;
+    background-size: cover;
+    background-position: center center;
+    height: 176px;
+    }
+                        
+.footer__message {
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    }
+                      
+.footer_container {
+    box-sizing: border-box;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 55px;
+    }              
